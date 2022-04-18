@@ -13,6 +13,7 @@ public class Main_17 {
         System.out.println(Task01.task5(list));
 
 
+
         /*Node head = new Node(arrayTask14[0]);
         List list = new List(head);
         for (int i = 1; i < arrayTask14.length; i++) {
