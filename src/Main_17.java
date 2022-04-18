@@ -1,26 +1,26 @@
 public class Main_17 {
     public static void main(String[] args) {
-        int[] array = new int[] {12, 43, 100, 4, 24, 6, 63};
-        String[] arrayOfStrings = {"tube", "youtube", "alabama", "africa",
+        int[] arrayTask14 = new int[] {12, 43, 100, 4, 24, 6, 63};
+        String[] arrayOfStringsTask5 = {"tube", "youtube", "alabama", "africa",
                 "antarctica", "arctica", "rambler"};
-        NodeString head = new NodeString(arrayOfStrings[0]);
+        NodeString head = new NodeString(arrayOfStringsTask5[0]);
         ListString list = new ListString(head);
-        for (int i = 1; i < array.length; i++) {
-            list.push(arrayOfStrings[i]);
+        for (int i = 1; i < arrayOfStringsTask5.length; i++) {
+            list.push(arrayOfStringsTask5[i]);
         }
         //list.printList();
 
         System.out.println(Task01.task5(list));
 
 
-        /*Node head = new Node(array[0]);
+        /*Node head = new Node(arrayTask14[0]);
         List list = new List(head);
-        for (int i = 1; i < array.length; i++) {
-            list.push(array[i]);
+        for (int i = 1; i < arrayTask14.length; i++) {
+            list.push(arrayTask14[i]);
         }
         //list.printList();
         System.out.println();
-        list = Task01.Task4(list);
+        list = Task01.task4(list);
         list.printList();*/
     }
 }
